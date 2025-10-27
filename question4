@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Development Curriculum</title>
+</head>
+<body>
+
+  <h1>Web Development Curriculum</h1>
+
+  <p><strong>Course Title:</strong> <em>Introduction to Web Development</em></p>
+  <p><u>Semester:</u> First Year, Semester 2</p>
+  <p>This course introduces students to the fundamentals of web technologies, including HTML, CSS, and JavaScript. It emphasizes hands-on learning and project-based development.</p>
+
+  <h2>Course Objectives</h2>
+  <ul>
+    <li>Understand the structure and syntax of HTML.</li>
+    <li>Apply CSS for styling web pages.</li>
+    <li>Use JavaScript for interactivity.</li>
+    <li>Develop responsive and accessible websites.</li>
+  </ul>
+
+  <h2>Course Modules</h2>
+  <ol>
+    <li>HTML Basics</li>
+    <li>CSS Styling</li>
+    <li>JavaScript Fundamentals</li>
+    <li>Responsive Design</li>
+    <li>Project Work</li>
+  </ol>
+
+  <h2>Module Details</h2>
+  <dl>
+    <dt><strong>HTML Basics</strong></dt>
+    <dd>Introduction to tags, elements, attributes, and page structure.</dd>
+
+    <dt><strong>CSS Styling</strong></dt>
+    <dd>Selectors, properties, box model, and layout techniques.</dd>
+
+    <dt><strong>JavaScript Fundamentals</strong></dt>
+    <dd>Variables, functions, events, and DOM manipulation.</dd>
+  </dl>
+
+  <h2>Assessment Criteria</h2>
+  <ul>
+    <li><strong>Assignments</strong>
+      <ol>
+        <li>HTML Page Creation</li>
+        <li>CSS Styling Challenge</li>
+        <li>JavaScript Mini Project</li>
+      </ol>
+    </li>
+    <li><strong>Mid-Term Exam</strong></li>
+    <li><strong>Final Project</strong>
+      <ul>
+        <li>Team-based website development</li>
+        <li>Presentation & Documentation</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Special Notes</h2>
+  <p>Make sure to use semantic tags and follow <strong>W3C standards</strong>. Pay attention to accessibility and cross-browser compatibility.</p>
+  <p>Special characters to know: &lt;, &gt;, &amp;, &copy;, &reg;</p>
+
+</body>
+</html>
