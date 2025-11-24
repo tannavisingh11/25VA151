@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Layout Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+    .header-top {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid #ccc;
+    }
+    .header-logo, .header-banner {
+      flex: 1;
+      padding: 10px;
+      min-width: 0;
+      text-align: center;
+      background: #ececec;
+    }
+    .header-bar {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      background: #e0e0e0;
+      text-align: center;
+    }
+    .main-content {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      min-height: 300px;
+    }
+    .left-blocks, .right-blocks {
+      flex: 1;
+      padding: 10px;
+      background: #e6e6f2;
+      min-width: 110px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .center-blocks {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+      background: #f8f8ff;
+      min-width: 220px;
+    }
+    .center-center-blocks {
+      flex: 1;
+      background: #d1e7dd;
+      padding: 10px;
+      text-align: center;
+    }
+    .center-lr-blocks-row {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      flex: 1;
+    }
+    .center-left-blocks, .center-right-blocks {
+      flex: 1;
+      background: #fff3cd;
+      padding: 10px;
+      text-align: center;
+    }
+    .module-contents {
+      padding: 10px;
+      background: #cff4fc;
+      border-top: 1px solid #ccc;
+      text-align: center;
+    }
+    .footer-bar {
+      padding: 10px;
+      background: #343a40;
+      color: #fff;
+      text-align: center;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-top">
+      <div class="header-logo">Header Logo</div>
+      <div class="header-banner">Header Banner</div>
+    </div>
+    <div class="header-bar">Header Bar</div>
+    <div class="main-content">
+      <div class="left-blocks">Left Blocks</div>
+      <div class="center-blocks">
+        <div class="center-center-blocks">Center-Center Blocks</div>
+        <div class="center-lr-blocks-row">
+          <div class="center-left-blocks">Center-Left Blocks</div>
+          <div class="center-right-blocks">Center-Right Blocks</div>
+        </div>
+      </div>
+      <div class="right-blocks">Right Blocks</div>
+    </div>
+    <div class="module-contents">Module Contents</div>
+    <div class="footer-bar">Footer Bar</div>
+  </div>
+</body>
+</html>
