@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector : CSS Combinators</title>
+    <style>
+        p{
+            color:blue;
+        }
+        .text> p{
+            background-color:bisque
+        }
+        div+p{
+            font-size:25px;
+            background-color: rgb(139, 120, 157);
+        }
+        ul li{
+            margin: 10px;
+            border-right:1px solid#F04;
+            padding-right:20px
+        }
+        ul li:nth-child(5){
+            border-right:0px;
+        }
+        ul li:first-letter{
+            font-size:25px color:aqua;
+        }
+        }
+    </style>
+</head>
+<body>
+    <!--first div-->
+    <div class="text">
+        <h1> hello ABES</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex harum placeat molestiae ipsa, voluptatum nobis omnis soluta assumenda dignissimos quaerat voluptate, aspernatur vitae hic, sit eveniet tempora et nostrum. Tenetur.</p>
+        <!--second div-->
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus culpa, molestiae alias similique, neque iusto animi error, unde nam pariatur ducimus modi ipsum reiciendis mollitia ad atque possimus asperiores dolores!</p>
+        </div><!--second div-->
+        <ul>
+            <li><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, veritatis aliquid libero nobis, quibusdam officiis nemo esse id deserunt accusantium, culpa tenetur laudantium voluptatum veniam consequatur? Error repellat inventore commodi.
+            </p></li>
+        </ul>
+</div><!--first div end-->
+<!--para-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad laborum eligendi unde, expedita molestias voluptatibus delectus tempore amet sit! Autem soluta, similique fuga maxime veritatis quaerat voluptatibus porro mollitia!</p>
+</body>
+</html>

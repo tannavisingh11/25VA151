@@ -1,0 +1,31 @@
+body{
+    background-image:url('Screenshot.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top left;
+    
+}
+
+p{
+    font-family:'Arial';
+    font-size:large;
+    font-weight:300;
+    font-style:itallic;
+    color: bisque;
+    text-align:right;
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-shadow:1px-0px-1px;#f04
+
+
+}
+#para{
+    color:aquamarine;
+    display:inline;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    float:left;margin:30px;
+}
